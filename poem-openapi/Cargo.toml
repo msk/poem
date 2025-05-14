@@ -82,6 +82,7 @@ sqlx = { version = "0.8.3", features = [
   "sqlite",
   "mysql",
 ], optional = true }
+ndarray = { version = "0.16", optional = true }
 
 [dev-dependencies]
 tokio = { workspace = true, features = ["macros", "rt-multi-thread"] }

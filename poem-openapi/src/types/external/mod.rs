@@ -20,6 +20,8 @@ mod humantime;
 mod humantime_wrapper;
 mod integers;
 mod ip;
+#[cfg(feature = "ndarray")]
+mod ndarray;
 mod optional;
 #[cfg(feature = "prost-wkt-types")]
 mod prost_wkt_types;
