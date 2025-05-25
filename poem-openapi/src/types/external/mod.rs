@@ -20,6 +20,8 @@ mod humantime;
 mod humantime_wrapper;
 mod integers;
 mod ip;
+#[cfg(feature = "jiff")]
+mod jiff;
 mod optional;
 #[cfg(feature = "prost-wkt-types")]
 mod prost_wkt_types;
